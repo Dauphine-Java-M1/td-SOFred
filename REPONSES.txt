@@ -1,0 +1,61 @@
+Frédéric SO
+
+Exercice 1
+
+4. Quelle version de Maven est installée sur la machine que vous utilisez ?
+Apache Maven 3.6.0.
+
+5. A quoi servent les paramètres groupId et artifactId ?
+Le groupId est l'identifiant du groupe à l'origine du projet.
+L'artifactId est l'identifiant du projet au sein du groupe.
+
+6. Vous trouverez un nouveau répertoire target au même niveau que le répertoire src, que contient ce répertoire ?
+Il contient les répertoires "classes", "generated-sources" et "maven-status".
+
+8. Qu'est-ce que le class path, à quoi sert-il ?
+Class path est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et packages Java afin qu'elle les exécute.
+
+13. A quoi sert la propriété maven.compiler.target, quelle valeur doit-on lui donner ?
+Elle sert à définir quelle version du compiler target on utilise.
+On doit lui donner la même valeur que la propriété maven.copiler.source.
+
+Exercice 2
+
+1. Tentez également d'éxécuter votre fichier JAR avec la commande :
+java -jar target/nom-du-jar
+On reçoit le message : "aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar".
+
+Exercice 3
+
+3. Que se passe t-il si l'on tape sysout et que l'on appuie sur Ctrl + Espace dans un main?
+C'est un raccourci qui écrit : "System.out.println();".
+
+4. Même question en tapant toStr puis Ctrl + Espace dans une classe ?
+Cela écrit :
+private void toStr() {
+	// TODO Auto-generated method stub
+
+}
+
+5. Même question en tapant main puis Ctrl + Espace dans une classe ?
+Cela écrit :
+public static void main(String[] args) {
+		
+}
+
+6. Que se passe t-il si l’on tape get puis Ctrl + Espace dans la classe ? Et set puis Ctrl + Espace ?
+Cela écrit :
+private void get() {
+	// TODO Auto-generated method stub
+
+}
+Et :
+private void set() {
+	// TODO Auto-generated method stub
+
+}
+
+7. Sélectionner le nom de la classe. Que se passe t-il si l’on tape Alt + Shift + R ? Même question avec le champ toto.
+Cela nous permet de renommer le nom de la classe.
+Idem pour le champ toto.
+
