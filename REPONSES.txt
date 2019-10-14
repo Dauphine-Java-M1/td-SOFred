@@ -59,3 +59,4 @@ private void set() {
 Cela nous permet de renommer le nom de la classe.
 Idem pour le champ toto.
 
+test
